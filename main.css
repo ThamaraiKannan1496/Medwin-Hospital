@@ -269,6 +269,51 @@ h3 {
   color: #0cb7d6;
   cursor: pointer;
 }
+/* Map section */
+.map {
+  margin: 100px 0;
+}
+.map h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+.map .row {
+  justify-content: space-between;
+}
+.left-form {
+  width: 50%;
+}
+.left-form input[type="text"] {
+  border: 1px solid #898989;
+}
+.left-form input,
+textarea {
+  display: block;
+  width: 100%;
+  outline: none;
+  padding: 12px;
+  margin-bottom: 50px;
+}
+.left-form input::placeholder,
+textarea::placeholder {
+  font-size: 16px;
+}
+.map textarea {
+  width: 100%;
+  padding: 30px 12px;
+}
+.map a {
+  padding: 16px 50px;
+  background-color: #0cb7d6;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  transition: 0.5s;
+}
+.map a:hover {
+  background-color: #000;
+  color: #fff;
+}
 /* footer */
 footer p {
   text-align: center;
