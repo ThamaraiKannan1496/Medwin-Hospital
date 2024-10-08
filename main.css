@@ -59,7 +59,7 @@ header i {
 /* Banner content */
 .banner-content {
   text-align: center;
-  margin-top: 80px;
+  margin-top: 50px;
   color: white;
   padding: 0 130px;
 }
@@ -72,10 +72,97 @@ header i {
   border-radius: 8px;
   text-transform: uppercase;
 }
+.banner-content a:hover {
+  background-color: white;
+  color: black;
+}
 .banner-content p {
   margin-bottom: 40px;
   font-size: 16px;
 }
-.banner-content h1 {
-  margin-bottom: 0px;
+
+/* Form section */
+.form-section-top {
+  position: absolute;
+  top: 83%;
+  left: 12.5%;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 3.5% 2.5%;
+}
+.form-section-top h1 {
+  font-size: 32px;
+  color: black;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+}
+.form-section-top h1 span {
+  color: #0cb7d6;
+  margin-left: 5px;
+}
+.form-section-top form {
+  color: #898989;
+  gap: 2%;
+}
+.form-section-top label {
+  margin-top: 20px;
+  width: 32%;
+}
+.form-section-top input,
+select {
+  border-radius: 4px;
+  width: 100%;
+  padding: 14px;
+  border-color: #898989;
+  outline: none;
+}
+/* About section */
+.about-section {
+  margin-top: 400px;
+  margin-bottom: 100px;
+}
+.about-section .row {
+  gap: 0 8%;
+  justify-content: center;
+  align-items: center;
+}
+.about-section .content {
+  width: 40%;
+}
+.about-section .image {
+  width: 48%;
+}
+.about-section .image img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  /* width: 47%; */
+}
+.about-section .content h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.about-section .content p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #898989;
+  margin-bottom: 40px;
+}
+.about-section .content a {
+  text-decoration: none;
+  color: white;
+  background: #000;
+  padding: 12px 30px;
+  text-transform: uppercase;
+  transition: 0.5s;
+  border-radius: 5px;
+  border: #000 1px solid;
+  cursor: pointer;
+}
+.about-section .content a:hover {
+  color: black;
+  background: #fff;
+  border: #000 1px solid;
 }
