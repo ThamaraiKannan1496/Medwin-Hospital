@@ -1,2 +1,81 @@
 @import "./reset.css";
-
+/* Top Header */
+.top-header {
+  background-color: #0cb7d6;
+}
+.top-header .row {
+  justify-content: space-between;
+  padding: 22px 0;
+}
+.top-header p {
+  font-size: 16px;
+  color: white;
+  font-weight: 400;
+}
+.top-header i {
+  display: inline-block;
+  font-size: 26px;
+}
+.top-header p:hover {
+  color: black;
+  transition: 0.7s;
+  cursor: pointer;
+}
+/* Header */
+header {
+  background-image: url("./Asset/banner-bg.png");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+header h1 {
+  font-size: 38px;
+  line-height: 46px;
+  color: #0cb7d6;
+  text-align: center;
+  padding: 45px 0;
+  text-transform: uppercase;
+}
+header ul {
+  list-style-type: none;
+  justify-content: space-around;
+}
+header nav a {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+header li {
+  padding: 0 10px;
+}
+header i {
+  margin-right: 3px;
+}
+/* Banner content */
+.banner-content {
+  text-align: center;
+  margin-top: 80px;
+  color: white;
+  padding: 0 130px;
+}
+.banner-content a {
+  text-decoration: none;
+  transition: 0.5s;
+  padding: 14px 35px;
+  background-color: #0cb7d6;
+  color: white;
+  border-radius: 8px;
+  text-transform: uppercase;
+}
+.banner-content p {
+  margin-bottom: 40px;
+  font-size: 16px;
+}
+.banner-content h1 {
+  margin-bottom: 0px;
+}
