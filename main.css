@@ -7,7 +7,7 @@
   justify-content: space-between;
   padding: 18px 0;
 }
-.top-header p {
+.top-header a {
   font-size: 16px;
   color: white;
   font-weight: 400;
@@ -16,7 +16,7 @@
   display: inline-block;
   font-size: 26px;
 }
-.top-header p:hover {
+.top-header a:hover {
   color: black;
   transition: 0.7s;
   cursor: pointer;
@@ -313,6 +313,36 @@ textarea::placeholder {
 .map a:hover {
   background-color: #000;
   color: #fff;
+}
+/* Footer-links */
+.foot-link {
+  background-color: #1d1d1d;
+  padding: 60px 0;
+}
+.subscribe {
+  text-align: center;
+}
+.subscribe a {
+  color: #fff;
+}
+.subscribe a:hover {
+  color: #0cb7d6;
+}
+
+.subscribe input {
+  /* border: none; */
+  caret-color: white;
+  outline: none;
+  padding: 10px 0;
+  background-color: #1d1d1d;
+  width: 40%;
+  border-bottom: 1px solid wheat;
+  border-top: none;
+  border-right: none;
+}
+.subscribe input::placeholder {
+  font-size: 18px;
+  color: rgb(255, 255, 255);
 }
 /* footer */
 footer p {
